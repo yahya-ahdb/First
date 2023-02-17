@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="assets/css/master.css">
+</head>
+<body>
+    <header class="header">
+
+        <div class="header-1">
+
+            <a href="" class="logo" ><ion-icon class="logo-content" name="book-outline"></ion-icon>bookly</a>
+
+            <from class="search-form">
+                <input type="search" placeholder="Search here...." id="search-box">
+                <label for="search-box">
+                    <ion-icon  name="search-outline" id="btn-search"></ion-icon>
+                </label>
+            </from>
+            <div class="icon">
+                <a>
+                    <ion-icon name="search-outline" id="btn-icon" ></ion-icon>
+                </a>
+                <a href="">
+                <ion-icon name="heart-outline"></ion-icon>
+                </a>
+                <a href="">
+                    <ion-icon name="cart-outline"></ion-icon>
+                </a>
+                <a class="login">
+                    <ion-icon name="person-outline"></ion-icon>
+                </a>
+            </div>
+        </div>
+
+        <div class="header-2">
+            <nav class="navbar" >
+                <a href="#home">Home</a>
+                <a href="#featured">featured</a>
+                <a href="#arrivals">arrivals</a>
+                <a href="#reviews">reviews</a>
+                <a href="#bolgs">bolgs</a>
+            </nav>
+        </div>
+        
+        <nav class="btn-navbar" >
+            <a href="#home"><ion-icon name="home-outline"></ion-icon></a>
+            <a href="#featured"><ion-icon name="list-outline"></ion-icon></a>
+            <a href="#arrivals"><ion-icon name="pricetags-outline"></ion-icon></a>
+            <a href="#reviews"><ion-icon name="chatbubbles-outline"></ion-icon></a>
+            <a href="#bolgs"><ion-icon name="albums-outline"></ion-icon></a>
+        </nav>
+
+        <div class="login-form-container">
+
+            
+            
+            <form action="">
+                <div id="login-close">X</div>
+                <h2>Sing in</h2>
+                <span>Username</span>
+                <input type="email" class="box" placeholder="Enter your name">
+                <span>Password</span>
+                <input type="password" class="box" placeholder="Enter your password">
+                <div class="checkbox">
+                    <input type="checkbox" id="remember-me" >
+                    <label for="remember-me"> Remember me </label>
+                </div>
+                <input type="submit" value="sing in" class="btn" >
+                <p>Forget password ? <a href="#">click here</a></p>
+                <p>don't have an account ? <a href="#">cerate one</a></p>
+
+            </form>
+
+        </div>
+
+        <section class="home" id="home">
+
+            <div class="row">
+                <div class="content">
+                    <h3>text</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eligendi autem incidunt, vero, exercitationem placeat 
+                        quidem commodi adipisci 
+                    </p>
+                    <a href="" class="btn">shop now</a>
+                </div>
+
+                <div class="swiper box-slider">
+                    <div class="swiper-wrapper">
+                        <a href="" class="swiper-slide"><img src="assets/img/book05.jpg" alt=""></a>
+                        <a href="" class="swiper-slide"><img src="assets/img/book01.jpg" alt=""></a>
+                        <a href="" class="swiper-slide"><img src="assets/img/book06.jpg" alt=""></a>
+                        <a href="" class="swiper-slide"><img src="assets/img/book02.jpg" alt=""></a>
+                        <a href="" class="swiper-slide"><img src="assets/img/book03.jpg" alt=""></a>
+                    <a href="" class="swiper-slide"><img src="assets/img/book04.jpg" alt=""></a>
+                    </div>
+
+                    <!-- <img src="assets/img/book.jpg" class="stand" alt=""> -->
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="icons-container row">
+
+            <div class="icons">
+                <ion-icon name="airplane-outline" class="icon"></ion-icon>
+                <div class="content">
+                <h3>free shipping</h3>
+                <p>order over $100</p>
+                </div>
+            </div>
+            <div class="icons">
+                <ion-icon name="key-outline" class="icon"></ion-icon>
+                <div class="content">
+                <h3>secure payment</h3>
+                <p>100 secure payment</p>
+                </div>
+            </div>
+            <div class="icons">
+                    <ion-icon name="arrow-redo-outline" class="icon"></ion-icon>
+                    <div class="content">
+                    <h3>easy returns</h3>
+                    <p>10 day returns</p>
+                    </div>
+                </div>
+            <div class="icons">
+                    <ion-icon name="headset-outline" class="icon"></ion-icon>
+                    <div class="content">
+                    <h3>24/7 support</h3>
+                    <p>call us anytime</p>
+                    </div>
+            </div>
+
+        </section>
+
+        <section class="featured row" id="featured" >
+
+            <h1 class="heading"> <span>Featured Books</span> </h1>
+            <div class="swiper featured-slider">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide box">
+                        <div class="icon">
+                            <a href="#"  ><ion-icon name="search-circle-outline"></ion-icon></a>
+                            <a href="#"  ><ion-icon name="heart-circle-outline"></ion-icon></a>
+                            <a href="#"  ><ion-icon name="eye-outline"></ion-icon></a>
+                        </div>
+                        <div class="image">
+                            <img src="assets/img/book01.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>featured books</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <a href="#" class="btn">Add to cart</a>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="icon">
+                            <a href="#"  ><ion-icon name="search-circle-outline"></ion-icon></a>
+                            <a href="#"  ><ion-icon name="heart-circle-outline"></ion-icon></a>
+                            <a href="#"  ><ion-icon name="eye-outline"></ion-icon></a>
+                        </div>
+                        <div class="image">
+                            <img src="assets/img/book02.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>featured books</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <a href="#" class="btn">Add to cart</a>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="icon">
+                            <a href="#"  ><ion-icon name="search-circle-outline"></ion-icon></a>
+                            <a href="#"  ><ion-icon name="heart-circle-outline"></ion-icon></a>
+                            <a href="#"  ><ion-icon name="eye-outline"></ion-icon></a>
+                        </div>
+                        <div class="image">
+                            <img src="assets/img/book03.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>featured books</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <a href="#" class="btn">Add to cart</a>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="icon">
+                            <a href="#"  ><ion-icon name="search-circle-outline"></ion-icon></a>
+                            <a href="#"  ><ion-icon name="heart-circle-outline"></ion-icon></a>
+                            <a href="#"  ><ion-icon name="eye-outline"></ion-icon></a>
+                        </div>
+                        <div class="image">
+                            <img src="assets/img/book03.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>featured books</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <a href="#" class="btn">Add to cart</a>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="icon">
+                            <a href="#"  ><ion-icon name="search-circle-outline"></ion-icon></a>
+                            <a href="#"  ><ion-icon name="heart-circle-outline"></ion-icon></a>
+                            <a href="#"  ><ion-icon name="eye-outline"></ion-icon></a>
+                        </div>
+                        <div class="image">
+                            <img src="assets/img/book02.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>featured books</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <a href="#" class="btn">Add to cart</a>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="icon">
+                            <a href="#"  ><ion-icon name="search-circle-outline"></ion-icon></a>
+                            <a href="#"  ><ion-icon name="heart-circle-outline"></ion-icon></a>
+                            <a href="#"  ><ion-icon name="eye-outline"></ion-icon></a>
+                        </div>
+                        <div class="image">
+                            <img src="assets/img/book01.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>featured books</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <a href="#" class="btn">Add to cart</a>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="icon">
+                            <a href="#"  ><ion-icon name="search-circle-outline"></ion-icon></a>
+                            <a href="#"  ><ion-icon name="heart-circle-outline"></ion-icon></a>
+                            <a href="#"  ><ion-icon name="eye-outline"></ion-icon></a>
+                        </div>
+                        <div class="image">
+                            <img src="assets/img/book01.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>featured books</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <a href="#" class="btn">Add to cart</a>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="icon">
+                            <a href="#"  ><ion-icon name="search-circle-outline"></ion-icon></a>
+                            <a href="#"  ><ion-icon name="heart-circle-outline"></ion-icon></a>
+                            <a href="#"  ><ion-icon name="eye-outline"></ion-icon></a>
+                        </div>
+                        <div class="image">
+                            <img src="assets/img/book02.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>featured books</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <a href="#" class="btn">Add to cart</a>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="icon">
+                            <a href="#"  ><ion-icon name="search-circle-outline"></ion-icon></a>
+                            <a href="#"  ><ion-icon name="heart-circle-outline"></ion-icon></a>
+                            <a href="#"  ><ion-icon name="eye-outline"></ion-icon></a>
+                        </div>
+                        <div class="image">
+                            <img src="assets/img/book03.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>featured books</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <a href="#" class="btn">Add to cart</a>
+
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+
+
+
+        <section class="newsletter ">
+            <div class="row">
+                <form  action="">
+                    <h3>subscribe for latest updates</h3>
+                    <input type="email" placeholder="Enter your Email" class="box">
+                    <input type="submit" value="subscribe" class="btn">
+                </form>
+            </div>
+        </section>
+
+
+        <section class="arrivale row" id="arrivals">
+
+            <h1 class="heading"> <span>new arrivale</span></h1>
+
+            <div class="swiper arrivale-slider">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="assets/img/book04.jpeg" alt="">
+                    </div>
+                
+
+                <div class="content">
+                    <h3>new arrivale</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>    
+                    </div>
+                </div>
+                </a>
+                    <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="assets/img/book04.jpeg" alt="">
+                    </div>
+                
+
+                <div class="content">
+                    <h3>new arrivale</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>    
+                    </div>
+                </div>
+                </a>
+                    <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="assets/img/book04.jpeg" alt="">
+                    </div>
+                
+
+                <div class="content">
+                    <h3>new arrivale</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>    
+                    </div>
+                </div>
+                </a>
+                    <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="assets/img/book04.jpeg" alt="">
+                    </div>
+                
+
+                <div class="content">
+                    <h3>new arrivale</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>    
+                    </div>
+                </div>
+                </a>
+                    <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="assets/img/book04.jpeg" alt="">
+                    </div>
+                <div class="content">
+                    <h3>new arrivale</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>    
+                    </div>
+                </div>
+                </a>
+            </div>
+                <div class="siwper arrivale-slider">
+                    <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="assets/img/book04.jpeg" alt="">
+                    </div>
+                
+
+                <div class="content">
+                    <h3>new arrivale</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>    
+                    </div>
+                </div>
+                </a>
+                    <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="assets/img/book04.jpeg" alt="">
+                    </div>
+                
+
+                <div class="content">
+                    <h3>new arrivale</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>    
+                    </div>
+                </div>
+                </a>
+                    <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="assets/img/book04.jpeg" alt="">
+                    </div>
+                
+
+                <div class="content">
+                    <h3>new arrivale</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>    
+                    </div>
+                </div>
+                </a>
+                    <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="assets/img/book04.jpeg" alt="">
+                    </div>
+                
+
+                <div class="content">
+                    <h3>new arrivale</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>    
+                    </div>
+                </div>
+                </a>
+                    <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="assets/img/book04.jpeg" alt="">
+                    </div>
+                
+
+                <div class="content">
+                    <h3>new arrivale</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>    
+                    </div>
+                </div>
+                </a>
+                </div>
+            </div>
+            </div>
+
+        </section>
+
+
+        <section class="deal">
+            <div class="deal-con row">
+            <div class="content">
+                <h3>deal of the day</h3>
+                <h1>Upto 50% off</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                     labore odio magni perferendis nobis facere expedita velit maxime. Similique, quo?
+                </p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="image">
+                <img src="assets/img/deal.jpg" alt="">
+            </div>
+            </div>
+        </section>
+
+
+        <section class="reviews row" id="reviews" >
+
+            <h1 class="heading"> <span>clinet's reviews </span></h1>
+
+            <div class="swiper reviews-slider">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide box">
+                        <img src="assets/img/person.png" alt="">
+                        <h3>john deo</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio labore quibusdam illum
+                            , doloribus natus esse distinctio tenetur consequuntur pariatur aliquid?
+                        </p>
+                        <div class="stras">
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src="assets/img/person.png" alt="">
+                        <h3>john deo</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio labore quibusdam illum
+                            , doloribus natus esse distinctio tenetur consequuntur pariatur aliquid?
+                        </p>
+                        <div class="stras">
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src="assets/img/person.png" alt="">
+                        <h3>john deo</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio labore quibusdam illum
+                            , doloribus natus esse distinctio tenetur consequuntur pariatur aliquid?
+                        </p>
+                        <div class="stras">
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src="assets/img/person.png" alt="">
+                        <h3>john deo</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio labore quibusdam illum
+                            , doloribus natus esse distinctio tenetur consequuntur pariatur aliquid?
+                        </p>
+                        <div class="stras">
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src="assets/img/person.png" alt="">
+                        <h3>john deo</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio labore quibusdam illum
+                            , doloribus natus esse distinctio tenetur consequuntur pariatur aliquid?
+                        </p>
+                        <div class="stras">
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src="assets/img/person.png" alt="">
+                        <h3>john deo</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio labore quibusdam illum
+                            , doloribus natus esse distinctio tenetur consequuntur pariatur aliquid?
+                        </p>
+                        <div class="stras">
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class="blogs row" id="bolgs" >
+
+            <div class="heading"><span>Our blogs</span></div>
+
+            <div class="swiper blogs-slider">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="assets/img/blog.png" alt="">
+                        </div>
+
+                        <div class="content">
+                            <h3>blog title goes here</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, mollitia?</p>
+                            <a href="#" class="btn" >Read more</a>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="assets/img/blog2.png" alt="">
+                        </div>
+
+                        <div class="content">
+                            <h3>blog title goes here</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, mollitia?</p>
+                            <a href="#" class="btn" >Read more</a>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="assets/img/blog3.jpg" alt="">
+                        </div>
+
+                        <div class="content">
+                            <h3>blog title goes here</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, mollitia?</p>
+                            <a href="#" class="btn" >Read more</a>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="assets/img/blog4.jpg" alt="">
+                        </div>
+
+                        <div class="content">
+                            <h3>blog title goes here</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, mollitia?</p>
+                            <a href="#" class="btn" >Read more</a>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="assets/img/blog5.jpg" alt="">
+                        </div>
+
+                        <div class="content">
+                            <h3>blog title goes here</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, mollitia?</p>
+                            <a href="#" class="btn" >Read more</a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="footer row">
+
+            <div class="box-container">
+                <div class="box">
+                    <h3>Pur locations</h3>
+                    <a href="#"><ion-icon name="flag-outline" class="ion-icon"></ion-icon>USA</a>
+                    <a href="#"><ion-icon name="flag-outline" class="ion-icon"></ion-icon>RUSSIA</a>
+                    <a href="#"><ion-icon name="flag-outline" class="ion-icon"></ion-icon>FRANCE</a>
+                    <a href="#"><ion-icon name="flag-outline" class="ion-icon"></ion-icon>JABAN</a>
+                    <a href="#"><ion-icon name="flag-outline" class="ion-icon"></ion-icon>EGYAP</a>
+                    <a href="#"><ion-icon name="flag-outline" class="ion-icon"></ion-icon>INDIA</a>
+                </div>
+
+                <div class="box">
+                    <h3>Quick links</h3>
+                    <a href="#"><ion-icon name="arrow-redo-circle-outline" class="ion-icon"></ion-icon>Home</a>
+                    <a href="#"><ion-icon name="arrow-redo-circle-outline" class="ion-icon"></ion-icon>Featured</a>
+                    <a href="#"><ion-icon name="arrow-redo-circle-outline" class="ion-icon"></ion-icon>Arrivale</a>
+                    <a href="#"><ion-icon name="arrow-redo-circle-outline" class="ion-icon"></ion-icon>Reviews</a>
+                    <a href="#"><ion-icon name="arrow-redo-circle-outline" class="ion-icon"></ion-icon>Blogs</a>
+                </div>
+                <div class="box">
+                    <h3>Extra links</h3>
+                    <a href="#"><ion-icon name="arrow-redo-circle-outline" class="ion-icon"></ion-icon>Account info</a>
+                    <a href="#"><ion-icon name="arrow-redo-circle-outline" class="ion-icon"></ion-icon>Ordered items</a>
+                    <a href="#"><ion-icon name="arrow-redo-circle-outline" class="ion-icon"></ion-icon>Privacy policy</a>
+                    <a href="#"><ion-icon name="arrow-redo-circle-outline" class="ion-icon"></ion-icon>Payment method</a>
+                    <a href="#"><ion-icon name="arrow-redo-circle-outline" class="ion-icon"></ion-icon>Our services</a>
+                </div>
+
+                <div class="box">
+                    <h3>Contcat info</h3>
+                    <a href="#"><ion-icon name="call-outline" class="ion-icon"></ion-icon>+963 992789081</a>
+                    <a href="#"><ion-icon name="mail-outline" class="ion-icon"></ion-icon>yhayaahd@gmail.com</a>
+                    <a href="#"><ion-icon name="call-outline" class="ion-icon"></ion-icon>+963 992789081</a>
+                </div>
+
+
+            </div>
+
+            <div class="share">
+                <a href="#"><ion-icon name="logo-facebook" class="ion-icon"></ion-icon></a>
+            </div>
+            <div class="credit">Created By <span>Yahaa Ahadab</span> -2022</div>
+
+        </section>
+
+        <!-- <div class="loader-container">
+            <img src="assets/img/loader.png.crdownload" alt="">
+        </div> -->
+
+
+
+
+    </header>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
